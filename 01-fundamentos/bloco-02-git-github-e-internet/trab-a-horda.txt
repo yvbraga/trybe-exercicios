@@ -1,0 +1,8 @@
+1 . Cliente: usuário digita google.com:
+2 . Cliente: interpreta a entrada e traduz para a URL completa.
+3 .Cliente: manda uma requisição ao DNS Host.
+4 . Host DNS: Transforma o URL em endereço IP.
+5 . A solicitação passa pelo balanceador de dados que define a melhor rota/proxy (CDN) para o servidor web mais otimizado. 
+6 . O servidor fisico indicado pelo balanceador é acessado pelo protocolo TCP/IP
+7 . O servidor envia os packages de dados / bancos de dados pelo protocolo TCP/IP para o cliente.
+8 . Cliente recebe os packages, onde são processados na maquina, e renderizados para serem mostrados ao usuário.
