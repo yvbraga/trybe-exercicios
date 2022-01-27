@@ -1,33 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        
+        * {
+            text-align: center;
+        }
+
         #tituloPrincipal {
             font-size: 65px;
             color: orange;
+            font-family: sans-serif;
+            font-style: oblique 25deg;
+            line-height: 0.25;
+            text-decoration: underline;
         }
 
         #listaDeCores {
             /* background-color: rgb(22, 97, 97); */
-            color: white;
+            color: rgb(0, 0, 0);
+        }
+
+        #amarelo {
+            background: yellow;
+        }
+
+        #vermelho {
+            background-color: red;
+        }
+
+        #marrom {
+            background-color: brown;
         }
 
         .muda {
-            background: rgb(175, 106, 16);
+            /* background: rgb(175, 106, 16); */
+        }
+
+        #paragrafo {
+            font-weight: 600;
+            font-size: 3em;
+        }
+
+        #conteudo {
+            font-size: 16px;
         }
     </style>
 </head>
-<body>
+
+<body id="conteudo">
     <h1 id="tituloPrincipal">Exercícios 3.2</h1>
-    <p class="muda">Qual é a sua cor favorita?</p>
-<ul class="muda" id="listaDeCores" >
-    <li>Amarelo</li>
-    <li>Vermelho</li>
-    <li>Marrom</li>
-</ul>
+    <p id="paragrafo" class="muda">Qual é a sua cor favorita?</p>
+    <ul class="muda" id="listaDeCores">
+        <li id="amarelo">Amarelo</li>
+        <li id="vermelho">Vermelho</li>
+        <li id="marrom">Marrom</li>
+    </ul>
 </body>
+
 </html>
