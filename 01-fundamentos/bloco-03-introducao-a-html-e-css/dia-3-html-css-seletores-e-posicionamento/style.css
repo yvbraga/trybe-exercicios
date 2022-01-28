@@ -1,0 +1,53 @@
+body {
+    background-color: #EDFFD9;
+}
+
+h1 {
+    color: #3A3042;
+    font-weight: bold;
+}
+
+h2 {
+    font-style: italic;
+}
+
+#contato ul li a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#habilidades, #sites {
+    font-weight: bold;
+}
+
+#habilidades {
+    font-size: 15px;
+}
+
+#sites {
+    font-size: 15px;
+}
+
+#sites ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#sites ul li {
+        display: inline;
+}
+
+#sites ul li a{
+    padding: 2px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+#sobre {
+    color: #3A3042;
+    font-weight: bold;
+    background-color: #DB9D47;
+    letter-spacing: 1px;
+    padding: 1px 0 1px 10px;
+}
