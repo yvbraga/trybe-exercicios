@@ -1,0 +1,10 @@
+.table-stomatopoda {
+    display: flex;
+    justify-content: flex-end;
+    background-color: purple;
+    width: 300px;
+}
+
+.caption-table {
+    width: 300px;
+}
