@@ -33,6 +33,9 @@ function changeTitle () {
 changeTitle()
 
 function changeToUpperCase () {
-    document.getElementsByClassName("center-content")[0].style.textTransform = "uppercase"
+    let tagP = document.getElementsByTagName("p");
+    for (index = 0; index < tagP.length; index += 1) {
+        tagP[index].style.textTransform = "uppercase"
+    }
 }
 changeToUpperCase ()
