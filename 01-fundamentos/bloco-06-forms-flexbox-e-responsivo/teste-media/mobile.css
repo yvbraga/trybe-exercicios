@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px) {
+    .main-header {
+        font-size: x-large;
+        padding: 5px;
+    }
+
+    .bio-container {
+        flex-direction: column;
+    }
+
+    #mandela-picture {
+        height: 250px;
+        width: 250px;
+    }
+
+    .bio-info {
+        width: 80%;
+    }
+}

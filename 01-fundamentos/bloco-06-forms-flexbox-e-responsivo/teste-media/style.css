@@ -1,0 +1,26 @@
+.main-header {
+    font-weight: 700;
+    font-size: xx-large;
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#mandela-picture {
+    width: 30%;
+    height: 30%;
+}
+
+.bio-container {
+    align-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.bio-info {
+    font-size: x-large;
+    width: 60%;
+}
